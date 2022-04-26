@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-text{
+    word-spacing: 3px;
+    color: white;
+    background-color: #177245;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    width: 100vw;
+}

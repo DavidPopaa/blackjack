@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/91993ae00a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./blackjack.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <form action="./how_to_play.html">
+        <button id="cash-out-btn">HOW TO PLAY</button>
+      </form>
+      <div class="total-div"><p id="total">TOTAL:</p></div>
+      <div class="bet-div"><p id="bet">BET:</p></div>
+    </div>
+    <p id="height-score">HeightScore:</p>
+
+    <div class="card1">
+      <div class="nr-div1"><p id="nr-card1"></p></div>
+    </div>
+
+    <div class="card2">
+      <div class="nr-div2"><p id="nr-card2"></p></div>
+    </div>
+
+    <div class="card3">
+      <div class="nr-div3"><p id="nr-card3"></p></div>
+    </div>
+
+    <div class="card4">
+      <div class="nr-div4"><p id="nr-card4"></p></div>
+    </div>
+
+    <div class="pr-card-posibil-dupa4">
+      <div class="pr-nr-posibil-dupa4"><p id="pr-nr-dupacard4"></p></div>
+    </div>
+
+    <div class="doilea-card-posibil-dupa4">
+      <div class="doilea-nr-posibil-dupa4">
+        <p id="doilea-nr-dupacard4"></p>
+      </div>
+    </div>
+
+    <button id="hold-btn" onclick="holdclicked()">
+      <span id="emoji-relaxat"><i class="far fa-grin-beam-sweat"></i></span>
+      <span id="hold-txt">HOLD</span>
+    </button>
+
+    <button id="hit-btn" onclick="hitclicked()">
+      <span id="emoji-agitat"><i class="far fa-grimace"></i></span>
+      <span id="hit-txt">HIT</span>
+    </button>
+
+    <button id="restart-btn" onclick="restart()">
+      <span id="restart-icn"><i class="fa fa-refresh"></i></span>
+      <span id="restart-txt">Restart</span>
+    </button>
+
+    <button id="start-btn" onclick="startgame()">
+      <span id="start-icn"><i class="fa fa-refresh"></i></span>
+      <span id="start-txt">Start</span>
+    </button>
+    <p id="WinLosemessage">Press Start</p>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

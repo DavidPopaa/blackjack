@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #177245;
+}
+
+.rama-div{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #177245;
+    left: 3vw;
+    top: 3vh;
+    right: 3vw;
+    border-right: 5px solid yellow;
+    border-left: 5px solid yellow;
+    border-top: 5px solid yellow;
+}
+
+
+
+#copyright{
+    position: absolute;
+    bottom: 1.2vh;
+    left: 1vw;
+    bottom: 1.4vh;
+    font-size: 22px;
+}
+
+#title{
+    position: absolute;
+    top: 7vh;
+    font-family: 'Ms Madi', cursive;
+    font-size: 55px;
+    color: white;
+    
+  animation: flip 2s ;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg);
+    text-shadow: 10px 10px 10px yellow; 
+  }
+}
+
+#start-btn{
+    padding: 20px 60px;
+    border-radius: 18px;
+    background-color: #177245;
+    border: 4px solid yellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+      animation-name: startbtn;
+  
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+    color: white;
+}
+
+@keyframes example {
+  0%   {  bottom: 5vh; 
+}
+ 25%  { bottom: 5vh ;
+  }
+   50%  {  bottom: 5vh;box-shadow: 25px 25px 25px yellow;transform: rotate(360deg);
+  }
+
+  75%   {   bottom: 5vh; box-shadow: 20px 20px 20px yellow;transform: rotate(360deg);
+}
+
+  100% {bottom: 5vh;
+}
+}
+
+@keyframes startbtn {
+  0%   {  bottom: 5vh;
+}
+ 25%  { bottom: 5vh ;
+  }
+   50%  {  bottom: 5vh;box-shadow: 25px 25px 25px yellow;transform: rotate
+  }
+
+  75%   {   bottom: 5vh; box-shadow: 20px 20px 20px yellow;
+}
+
+  100% {bottom: 5vh;
+}
+}
+
+.as-card{
+    position: absolute;
+    background-color: #177245;
+    background: url("./images/aaaaaas-card-redi.png");
+   
+  animation-name: example;
+  border-radius: 20px;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+    bottom: 5vh;
+    width: 160px;
+    height: 220px;
+}
+

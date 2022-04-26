@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #177245;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7vh;
+    width: 100vw;
+    border-bottom: 5px solid yellow;
+  
+}
+
+
+
+.total-div{
+    position: absolute;
+    top: 0;
+    left: 66.66vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33vw;
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 5px solid yellow;
+    height: 7vh;
+    background-color: #177245;
+
+}
+#cash-out-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.33vw;
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 5px solid yellow;
+    border-right: 5px solid yellow;
+    height: 7vh;
+    border-top: none;
+    border-left: none;
+    background-color: #177245;
+}
+.bet-div{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 33.33vw;
+    width: 33.33vw;
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 5px solid yellow;
+    border-right: 5px solid yellow;
+    height: 7vh;
+    background-color: #177245;
+}
+#height-score{
+    position: absolute;
+    top: 8vh;
+    left: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.card1{ 
+    position: absolute;
+    bottom: 55vh;
+    height: 140px;
+    width: 90px;
+    top: 18vh;
+    right: 48vw;
+    border: 5px rgb(24, 23, 23) solid;
+    border-radius: 20px;
+    background-color:#272D2D;
+    background-size: cover;
+}
+.nr-div1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+    left: 45;
+    width: 100%;
+    height: 20%;
+    border-bottom: rgb(25, 24, 24) solid 5px;
+}
+#nr-card1{
+    position: absolute;
+    left: 10px;
+}
+
+.card2{
+    position: absolute;
+     top: 18vh;
+    height: 140px;
+    width: 90px;
+    left: 49vw;
+    border-radius: 20px;
+    background-color: #272D2D;
+    border: rgb(25, 24, 24) solid 5px;
+    background-size: cover;
+}
+#nr-card2{
+    position: absolute;
+    left: 10px;
+   
+    
+}
+
+.pr-card-posibil-dupa2{
+    position: absolute;
+    top: 18vh;
+    height: 140px;
+    width: 90px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: white;
+    border: black solid 3px;
+    background-size: cover;
+}
+#primul-nr-card2-dupa{
+    position: absolute;
+    left: 10px;
+}
+.pr-nr-posibil-dupa2{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    border-bottom: black solid 5px;
+}
+
+.doilea-card-posibil-dupa2{
+    position: absolute;
+    top: 18vh;
+     height: 140px;
+    width: 90px;
+     margin-left: 170px;
+    border-radius: 20px;
+    background-color: white;
+    border: black solid 3px;
+    background-size: cover;
+}
+#doilea-nr-card2-dupa{
+    position: absolute;
+    left: 10px;
+}
+.doilea-nr-posibil-dupa2{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    border-bottom: black solid 5px;
+}
+
+
+
+.nr-div2{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    border-bottom: rgb(25, 24, 24) solid 5px;
+}
+
+
+.card3{
+     position: absolute;
+    bottom: 10vh;
+     height: 140px;
+    width: 90px;
+    margin-right: 250px;
+    border: rgb(25, 24, 24) solid 5px;;
+    border-radius: 20px;
+    background-color: #272D2D;;
+    
+    background-size: cover;
+}
+#nr-card3{
+    position: absolute;
+    left: 10px;
+}
+.nr-div3{
+   border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 125px;
+    height: 20%;
+    border-bottom: rgb(25, 24, 24) solid 5px;
+}
+
+
+.card4{
+    position: absolute;
+    bottom: 10vh;
+    height: 140px;
+    width: 90px;
+    margin-left: -110px;
+    border-radius: 20px;
+    background-color: #272D2D;
+    border: rgb(25, 24, 24) solid 5px;
+    background-size: cover;
+}
+#nr-card4{
+    position: absolute;
+    left: 10px;
+}
+.nr-div4{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 125px;
+    height: 20%;
+    border-bottom: rgb(25, 24, 24) solid 5px;
+}
+
+.pr-card-posibil-dupa4{
+    position: absolute;
+    bottom: 10vh;
+    height: 140px;
+    width: 90px;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: #272D2D;
+    border: rgb(25, 24, 24) solid 5px;
+    background-size: cover;
+}
+#pr-nr-dupacard4{
+    position: absolute;
+    left: 10px;
+}
+.pr-nr-posibil-dupa4{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 125px;
+
+    height: 20%;
+    border-bottom: rgb(25, 24, 24) solid 5px;
+}
+#doilea-nr-dupacard4{
+    position: absolute;
+    left: 10px;
+}
+
+.doilea-card-posibil-dupa4{
+    position: absolute;
+    bottom: 10vh;
+   height: 140px;
+    width: 90px;
+     margin-left: 30px;
+    border-radius: 20px;
+    background-color: #272D2D;
+    border: rgb(25, 24, 24) solid 5px;
+    margin-left: 170px;
+ 
+    background-size: cover;
+}
+.doilea-nr-posibil-dupa4{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+
+    height: 20%;
+    border-bottom: rgb(25, 24, 24) solid 5px;
+}
+#hold-btn{
+    background-color: #177245;
+    border: yellow solid 5px;
+    position: absolute;
+    right: 10vw;
+    top: 50vh;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#emoji-relaxat{
+    font-size: 15px;
+    color: white;
+}
+#hold-txt{
+    font-size: 15px;
+    margin-left: 10px;
+    color: white;
+}
+
+#hit-btn{
+    background-color: #177245;
+    border: yellow solid 5px;
+    position: absolute;
+    left: 10vw;
+    top: 50vh;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#emoji-agitat{
+    font-size: 15px;
+    color: white;
+}
+#hit-txt{
+    font-size: 15px;
+    margin-left: 10px;
+    color: white;
+}
+
+#restart-btn{
+    position: absolute;
+    background-color: #177245;
+    border: solid yellow 3px;
+    top: 8vh;
+    right: 10px;
+    color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+}
+#restart-icn{
+    font-size: 15px;
+    color: white;
+}
+#restart-txt{
+    font-size: 15px;
+    margin-left: 5px;
+    color: white;
+}
+
+#start-btn{
+    position: absolute;
+    background-color: #177245;
+    border: solid yellow 3px;
+    top: 8vh;
+    right: 10px;
+    color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      margin-top: 40px;
+}
+#start-icn{
+    font-size: 15px;
+    color: white;
+}
+#start-txt{
+    font-size: 15px;
+    margin-left: 5px;
+  
+    color: white;
+}
+#WinLosemessage{
+    position: absolute;
+    top: 50vh;
+  color: white;
+  font-size: 30px;
+}
