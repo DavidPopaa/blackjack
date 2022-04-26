@@ -429,8 +429,8 @@ body{
     color: white;
 }
 #WinLosemessage{
-    position: absolute;
-    top: 50vh;
+     position: absolute;
+    top: 44vh;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
